@@ -2,17 +2,21 @@
 using namespace std;
 
 int main(){
-    int a[3][4] = {
-        {1,2,3,4},
-        {6,7,8,9},
-        {3,6,9,12}
-    };
-   
-    int *p[3];
-    p[0] = new int[4];
-    p[1] = new int[4];
-    p[2] = new int[4];
-    
+    int a[5] = {1,2,3,4,5};
+
+    int n = 5;
+    int dele_pos = 3;
+
+    for(int i = dele_pos;i<n-1;i++){
+        a[i] = a[i+1];
+    }
+    //a[2] = a[3];
+    //a[3] = a[4];
+
+    for(int i=0;i<n-1;i++){
+        
+        cout<< a[i] <<endl;
+    }
 
     }
 

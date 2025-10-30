@@ -15,15 +15,6 @@ int main(){
     
 
 
-    int **q;
-    q = new int*[3];
-    q[0] = new int[4];
-    q[1] = new int[4];
-    q[2] = new int[4];
-     for(int i=0;i<3;i++){
-        for(int j=0;j<4;j++){
-            cout<<q[i][j]<<"\t";
-        }
-        cout<<endl;
+   
     }
-}
+

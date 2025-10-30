@@ -13,18 +13,7 @@ int main(){
     p[1] = new int[4];
     p[2] = new int[4];
     
-    int *p[3];
-    p[0] = new int[4];
-    p[1] = new int[4];
-    p[2] = new int[4];
 
- int *p[3];
-    p[0] = new int[4];
-    p[1] = new int[4];
-    p[2] = new int[4];
-
-
-    
    
     }
 

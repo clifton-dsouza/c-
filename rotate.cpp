@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
     int a[5] = {10,20,30,40,50};  
-    int n = 5;   // ✅ should be positive 5, not -5
+    int n = 5;  
 
-    // Right shift
+    
     int fir = a[0];
     for(int i = 0; i < n ; i++ ){
         a[i] = a[i+1];
